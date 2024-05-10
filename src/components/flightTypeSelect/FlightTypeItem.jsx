@@ -1,7 +1,7 @@
 const FlightTypeItem = ({ tripTitle, tripType, setTripType }) => {
   return (
     <div
-      className={`border border-blue-950 px-3 py-1 cursor-pointer ${
+      className={`border border-blue-950 px-3 py-1 cursor-pointer transition  duration-300 ${
         tripType === tripTitle ? 'bg-blue-950 text-white' : ''
       }`}
       onClick={() => setTripType(tripTitle)}
