@@ -17,7 +17,6 @@ function App() {
       const parsedFlights = JSON.parse(text);
       setFlights(parsedFlights);
       setNotification(parsedFlights.message);
-      console.log(parsedFlights);
     } catch (error) {
       console.error('Error fetching data:', error);
       setNotification('Data parse unsuccesful');
