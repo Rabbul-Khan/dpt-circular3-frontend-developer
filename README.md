@@ -66,7 +66,7 @@ I started by planning and resarching the project which took around 1 hour of tim
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Two Live Frontend projects that I have built and :
+## Two Live Frontend projects that I have built and top personal git repositories:
 
 - ### Portfolio Website [GitHub link](https://github.com/Rabbul-Khan/personal-portfolio) | [Live link](https://rabbul-khan.github.io/personal-portfolio/)
 
