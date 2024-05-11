@@ -3,7 +3,7 @@ import Link from './Link';
 const Nav = () => {
   return (
     <nav>
-      <ul className="flex gap-7 font-semibold ">
+      <ul className="flex text-sm font-medium lg:font-semibold gap-7 lg:text-base ">
         <li>
           <Link linkTitle="Dashboard" />
         </li>
