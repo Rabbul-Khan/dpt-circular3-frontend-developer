@@ -4,7 +4,7 @@ import FlightTypeItem from './FlightTypeItem';
 const FlightTypeSelect = () => {
   const [tripType, setTripType] = useState('One Way');
   return (
-    <div className="flex justify-center font-semibold my-5">
+    <div className="flex justify-center my-5 font-semibold">
       <FlightTypeItem
         tripTitle="Round Trip"
         tripType={tripType}
