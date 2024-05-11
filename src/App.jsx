@@ -12,7 +12,9 @@ function App() {
   // Functionality for retrieving flights data from the database.
   const fetchFlights = async () => {
     try {
-      const file = await fetch('../../data/LHR_CDG_ADT1_TYPE_1.txt');
+      const file = await fetch(
+        'https://raw.githubusercontent.com/Rabbul-Khan/dpt-circular3-frontend-developer/master/data/LHR_CDG_ADT1_TYPE_1.txt'
+      );
       const text = await file.text();
       const parsedFlights = JSON.parse(text);
       setFlights(parsedFlights);
